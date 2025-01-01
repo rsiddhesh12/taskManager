@@ -101,12 +101,12 @@
     white-space: nowrap;
     cursor: pointer;
     font-size: 1.1rem;
-    color: #333; /* Solid dark color for task text */
+    color: #333; 
   }
   
   .task-text.done {
     text-decoration: line-through;
-    color: #555; /* Slightly lighter dark color for completed tasks */
+    color: #555;
   }
   
   
