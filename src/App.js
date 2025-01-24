@@ -11,6 +11,7 @@ import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import ChildComponent from './pages/childComponent/child';
 import DynamicCheckboxes from './pages/checkBox/checkBox';
 import NestedCircles from './pages/nestedCircle/nestedCircle';
+import ApiCall from './pages/apiCall/apiCall';
 const persistor = persistStore(store);
 
 const App = () => {
@@ -38,7 +39,8 @@ const App = () => {
                     <p >Data From Child: {dataFromChild}</p> */}
 
     {/* <DynamicCheckboxes items={items} /> */}
-    <NestedCircles />
+    {/* <NestedCircles /> */}
+    <ApiCall />
     </>
   )
 };
